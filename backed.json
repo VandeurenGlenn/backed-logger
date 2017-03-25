@@ -1,0 +1,22 @@
+{
+  "bundles": [
+    {
+      "src": "src/logger.js",
+      "dest": "dist/logger.js",
+      "babel": {
+        "presets": [
+          [
+            "es2015",
+            {
+              "modules": false
+            }
+          ]
+        ],
+        "plugins": [
+          "external-helpers"
+        ]
+      }
+    }
+  ],
+  "format": ["cjs", "es"]
+}
